@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: external-secrets-controller
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtap-gitops-tenant/external-secrets/external-secrets-controller@sha256:5830360c5d19a90bd23a6675e6919d49b6082b34965fc00596a6980c89494500
+        name: container-image
+        resources: {}
+status: {}
