@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: external-secrets-controller
     app.kubernetes.io/part-of: external-secrets
-  name: external-secrets-controllxvtn
+  name: external-secrets-controlls3i4
 spec:
   port:
     targetPort: 8080
