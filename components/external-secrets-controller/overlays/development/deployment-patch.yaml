@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-gitops-tenant/external-secrets/external-secrets-controller@sha256:0606f12272ad244fa49fe3e27a479e353a39a084d1419b63ed5f108e820543d4
+      - image: quay.io/redhat-user-workloads/rhtap-gitops-tenant/external-secrets/external-secrets-controller@sha256:74c9d1b9c821049174dab77d5160deac005764cbe0434e9de2df1f91a98f7514
         name: container-image
         resources: {}
 status: {}
