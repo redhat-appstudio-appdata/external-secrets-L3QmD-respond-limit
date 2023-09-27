@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: external-secrets-controller
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtap-gitops-tenant/external-secrets/external-secrets-controller@sha256:c25678fdb62da39a784b4c8f5807d2dd84584eb0c852dec84ed983567702a7c1
+      - image: quay.io/redhat-user-workloads/rhtap-gitops-tenant/external-secrets/external-secrets-controller@sha256:0606f12272ad244fa49fe3e27a479e353a39a084d1419b63ed5f108e820543d4
         imagePullPolicy: Always
         name: container-image
         ports:
